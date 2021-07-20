@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.booking {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.inputForm {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.ereaText {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}

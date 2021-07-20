@@ -1,3 +1,4 @@
 .contentPage {
     display: flex;
+    flex-direction: row;
 }
