@@ -1,11 +1,11 @@
 import React from 'react';
 import jpImage from '../../assets/jpmuziekmaken.jpg';
-import './home.css'
+import styles from './home.module.css'
 
 function Home() {
     return(
-        <div className='home'>
-            <img className='picture' alt='foto van jp' src={jpImage}/>
+        <div className={styles.home}>
+            <img className={styles.picture} alt='foto van jp' src={jpImage}/>
         </div>
     );
 }

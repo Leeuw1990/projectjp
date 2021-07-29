@@ -2,15 +2,15 @@
 
 .booking {
     display: flex;
-    justify-content: center;
     font-family: 'Source Code Pro', monospace;
+    justify-content: center;
 }
 
 .inputForm {
-    justify-content: center;
-    display: flex;
     flex-direction: column;
-    margin: 50px;
+    align-items: center;
+    display: flex;
+    margin: 10px;
     font-family: 'Source Code Pro', monospace;
 }
 

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 .button {
-    width: 100px;
+    width: 150px;
     height: 40px;
-    background-color: white;
+    background-color: transparent;
+    color: white;
     border-radius: 15px;
     font-family: 'Source Code Pro', monospace;
 }

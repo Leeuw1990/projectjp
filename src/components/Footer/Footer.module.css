@@ -1,0 +1,15 @@
+
+.jazzPartitions {
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.jazz {
+    width: 50%;
+}
+
+.jazz2 {
+    width: 50%;
+}

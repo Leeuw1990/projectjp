@@ -6,6 +6,7 @@ import Content from './pages/Content/Content';
 import Booking from './pages/Booking/Booking'
 import NavBar from "./components/NavBar/NavBar";
 import React from "react";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </Route>
 
       </Switch>
+      <Footer/>
     </Router>
   );
 }

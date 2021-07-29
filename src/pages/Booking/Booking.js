@@ -10,11 +10,10 @@ function Booking() {
         mode: "onChange"
     })
 
-    function submitData (data) {
+    function submitData (data, e) {
         console.log(data)
+        e.target.reset();
     }
-
-
 
     return(
         <div className={styles.booking}>
@@ -27,7 +26,7 @@ function Booking() {
                         {
                             required: {
                                 value: true,
-                                message: 'Gebruikersnaam is verplicht',}})}
+                                message: 'Voornaam verplicht',}})}
                     errors={errors}
                 />
                 <InputField
@@ -38,7 +37,7 @@ function Booking() {
                         {
                             required: {
                                 value: true,
-                                message: 'Gebruikersnaam is verplicht',}})}
+                                message: 'Achternaam verplicht',}})}
                     errors={errors}
                 />
                 <InputField
@@ -49,7 +48,7 @@ function Booking() {
                         {
                             required: {
                                 value: true,
-                                message: 'Gebruikersnaam is verplicht',}})}
+                                message: 'Telefoonnummer verplicht',}})}
                     errors={errors}
                 />
                 <InputField
@@ -60,18 +59,17 @@ function Booking() {
                         {
                             required: {
                                 value: true,
-                                message: 'Gebruikersnaam is verplicht',}})}
+                                message: 'E-mail verplicht',}})}
                     errors={errors}
                 />
                 <label>
-                    <textarea {...register('bookingInfo')} id='bookingInfo' name='bookingInfo' className={styles.ereaText} rows='25' cols='50' placeholder='Geef hier uw aanvraag door'/>
+                    <textarea {...register('bookingInfo')} id='bookingInfo' name='bookingInfo' className={styles.ereaText} rows='15' cols='50' placeholder='Geef hier uw aanvraag door'/>
                 </label>
                 <Button
                 type='submit'
                 text='Verstuur'
                 />
             </form>
-
         </div>
     );
 }
