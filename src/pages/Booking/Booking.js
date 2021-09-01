@@ -63,12 +63,10 @@ function Booking() {
                     errors={errors}
                 />
                 <label>
-                    <textarea {...register('bookingInfo')} id='bookingInfo' name='bookingInfo' className={styles.ereaText} rows='15' cols='50' placeholder='Geef hier uw aanvraag door'/>
+                    <textarea {...register('bookingInfo')} id='bookingInfo' name='bookingInfo' className={styles.ereaText} rows='10' cols='50' placeholder='Geef hier uw aanvraag door'/>
                 </label>
-                <Button
-                type='submit'
-                text='Verstuur'
-                />
+                <button className={styles.submit} type='submit'
+                >Verstuur</button>
             </form>
         </div>
     );

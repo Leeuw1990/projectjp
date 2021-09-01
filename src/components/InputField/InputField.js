@@ -3,7 +3,7 @@ import styles from './InputField.module.css'
 
 function InputField({name, type, placeholder, fieldRef, errors}) {
     return(
-      <>
+      <div className={styles.container}>
           <label htmlFor={name}>
               <input
                   className={styles.inputField}
@@ -14,8 +14,8 @@ function InputField({name, type, placeholder, fieldRef, errors}) {
                   {...fieldRef}
               />
           </label>
-          {errors[name] && <p>{errors[name].message}</p>}
-      </>
+          {errors[name] && <p className={styles.error}>{errors[name].message}</p>}
+      </div>
     );
 }
 

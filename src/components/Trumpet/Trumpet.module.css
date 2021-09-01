@@ -1,0 +1,34 @@
+
+.trumpet {
+    filter: invert(100%) sepia(100%) saturate(38%) hue-rotate(321deg) brightness(110%) contrast(150%);
+    margin: 0;
+    padding: 0;
+    text-indent: -1000em;
+
+}
+
+.trumpetButton {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .trumpet {
+        filter: invert(100%) sepia(100%) saturate(38%) hue-rotate(321deg) brightness(110%) contrast(150%);
+        margin: 0;
+        padding: 0;
+        text-indent: -1000em;
+    }
+
+    .trumpetButton {
+        background-color: transparent;
+        border: 0;
+        color: white;
+        overflow: hidden;
+    }
+
+
+}

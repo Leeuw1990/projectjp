@@ -4,11 +4,13 @@
     display: flex;
     justify-content: center;
     height: 100px;
+    position: relative;
+
 }
 
 .list {
     list-style-type: none;
-    flex-basis: 550px;
+    flex-basis: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,3 +20,27 @@
     border-bottom: black solid 3px;
     color: white;
 }
+
+/*@media screen and (max-width: 600px) {*/
+
+/*    .navBar {*/
+/*        border: solid red 2px;*/
+/*        width: 100%;*/
+/*        background-color: black;*/
+/*        display: flex;*/
+/*        height: 10%;*/
+/*    }*/
+
+/*    .list {*/
+/*        list-style-type: none;*/
+/*        flex-basis: 100%;*/
+/*        display: flex;*/
+/*    }*/
+
+/*    .activeLink {*/
+/*        border-bottom: black solid 3px;*/
+/*        color: white;*/
+/*    }*/
+
+
+/*}*/

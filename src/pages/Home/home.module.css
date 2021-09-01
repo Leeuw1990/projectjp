@@ -1,11 +1,26 @@
 .picture {
-    justify-content: center;
-    height: 650px;
-    width: 650px;
+    height: 550px;
+    width: 550px;
+    filter: grayscale(100%);
 }
 
 .home {
     display: flex;
     justify-content: center;
-    background-color: black;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .picture {
+        height: 350px;
+        width: 350px;
+        filter: grayscale(100%);
+    }
+
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }

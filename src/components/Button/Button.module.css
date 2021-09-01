@@ -7,4 +7,18 @@
     color: white;
     border-radius: 15px;
     font-family: 'Source Code Pro', monospace;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .button {
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        color: white;
+        border-radius: 15px;
+        font-family: 'Source Code Pro', monospace;
+    }
 }

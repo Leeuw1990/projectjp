@@ -2,7 +2,7 @@
 
 .block {
     width: 250px;
-    height: 550px;
+    height: 450px;
     margin: 25px;
     background-color: black;
     border: solid black 2px;
@@ -19,3 +19,29 @@
     margin: 25px;
     text-align: justify;
 }
+
+@media screen and (max-width: 600px) {
+
+    .block {
+        width: 250px;
+        height: 450px;
+        margin: 25px;
+        background-color: black;
+        border: solid black 2px;
+        border-radius: 25px;
+        color: white;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    .head {
+        text-align: center;
+    }
+
+    .text {
+        margin: 25px;
+        text-align: justify;
+    }
+
+
+}
+
